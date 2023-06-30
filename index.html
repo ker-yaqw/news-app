@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="icon" type="image/png" size="32" href="./favicon/favicon.png">
+</head>
+<body>
+    <div class="wrapper" id="up">
+        <header class="header">
+            <a class="header-logo" href="#!">newsPortal</a>
+            <section class="search-panel">
+                <div class="container">
+                    <form class="search-panel-form" action="#" method="post">
+                        <input class="search-panel-form__input" type="text" name="search" placeholder="Search the newsPortal" id="newsQuery" maxlength="16">
+                        <button class="search-panel-form__button" type="button" id="searchBtn">
+                            <svg class="search-panel-form__icon" viewBox="0 0 32 32" width="1em" height="1em">
+                                <path d="m30.6 28.1-8.3-8.3c1.5-2 2.4-4.4 2.4-7.2C24.7 6 19.6 1 13 1S1.4 6.1 1.4 12.7 6.5 24.3 13 24.3c2.3 0 4.4-.6 6.2-1.8l8.5 8.5 2.9-2.9zM4 12.6c0-5.2 3.9-9.1 9-9.1s9 3.9 9 9.1c0 5.2-3.9 9.1-9 9.1s-9-3.9-9-9.1z"></path>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </header>
+        <main class="main">  
+            
+            <h1 class="title">Welcome to NewsPortal</h1>
+            
+            <section class="news-content" id="newsContent"></section>
+        </main> 
+        <footer class="footer">
+            <div class="footer-copyright">
+                <p class="footer-copyright__text">Copyright 2023 newsPortal</p>
+            </div>
+        </footer>
+    </div>
+    
+    <a class="up-btn" href="#up">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5 21h14c1.103 0 2-.897 2-2V5c0-1.103-.897-2-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2zm7-13 5 6H7l5-6z"></path></svg>
+    </a>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
